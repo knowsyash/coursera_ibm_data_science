@@ -1,0 +1,186 @@
+Coursera
+IBM
+Welcome to the Course
+Basic SQL
+Video: VideoIntroduction to Databases
+. Duration: 3 minutes3 min
+Video: VideoSELECT Statement
+. Duration: 3 minutes3 min
+Ungraded Plugin: SELECT statement examples
+. Duration: 5 minutes5 min
+Ungraded App Item: Ungraded App ItemHands-on Lab: Simple SELECT Statements
+. Duration: 20 minutes20 min
+Video: VideoCOUNT, DISTINCT, LIMIT
+. Duration: 2 minutes2 min
+Ungraded App Item: Ungraded App ItemHands-on Lab: COUNT, DISTINCT, LIMIT
+. Duration: 30 minutes30 min
+Video: VideoINSERT Statement
+. Duration: 2 minutes2 min
+Video: VideoUPDATE and DELETE Statements
+. Duration: 3 minutes3 min
+Ungraded App Item: Ungraded App ItemHands-on Lab: INSERT, UPDATE, and DELETE
+. Duration: 20 minutes20 min
+Reading: ReadingSummary: Basic SQL
+. Duration: 5 minutes5 min
+Practice Assignment: Practice Quiz: Basic SQL
+Submitted
+Ungraded Plugin: SQL Cheat Sheet: Basics - SELECT, INSERT, UPDATE, DELETE, COUNT, DISTINCT, LIMIT
+. Duration: 15 minutes15 min
+Graded Assignment: Graded Quiz: Basic SQL
+. Duration: 10 minutes10 min
+Databases and SQL for Data Science with Python
+Module 1
+Graded Quiz: Basic SQL
+Graded Quiz: Basic SQL
+Assignment details
+Due
+July 28, 11:59 PM ISTJul 28, 11:59 PM IST
+
+Attempts
+2 left (3 attempts every 8 hours)
+
+Your grade
+You haven’t submitted this yet. We keep your highest score.
+
+--Not available
+
+Graded Quiz: Basic SQL
+Graded Assignment • 10 min
+
+DueJul 28, 11:59 PM IST
+1.
+Question 1
+Assume an INSTRUCTOR table exists with columns including FIRSTNAME, LASTNAME, and others. What would be the most likely result set for the query:
+
+SELECT DISTINCT FIRSTNAME FROM INSTRUCTOR
+
+
+LEON
+
+LEON
+
+PAUL
+
+PAUL
+
+
+
+LEON
+
+PAUL
+
+JOE
+
+
+
+LEON
+
+PAUL
+
+LEON
+
+JOE
+
+
+
+LEON KATSNELSON
+
+PAUL ZIKOPOLOUS
+
+JOE SANTARCANGELO
+
+
+1 point
+2.
+Question 2
+UPDATE INSTRUCTOR SET LASTNAME = 'Brewster' WHERE LASTNAME = 'Smith'
+
+
+Updates all rows in the table to have the last name 'Smith.'
+
+
+
+Changes the last name of the instructor named 'Brewster' to 'Smith.'
+
+
+
+Updates all rows in the table to have the last name 'Brewster.'
+
+
+
+Changes the last name of all instructors named 'Smith' to 'Brewster.'
+
+
+1 point
+3.
+Question 3
+What would occur if you executed a DELETE FROM statement on a table without the WHERE clause?
+
+
+The command would result in an error.
+
+
+
+The command would only delete the first entry in the table.
+
+
+
+The command would remove all entries in the table, leaving it empty but still present in the database.
+
+
+
+The command would delete the table from the database.
+
+
+1 point
+4.
+Question 4
+What is the expected result of the following SQL statement?
+
+SELECT COUNT(DISTINCT FIRSTNAME) FROM INSTRUCTOR
+
+
+Only the distinct FIRSTNAME entries.
+
+
+
+The number of unique FIRSTNAME entries in the INSTRUCTOR table.
+
+
+
+The count of unique entries along with the distinct FIRSTNAME entries.
+
+
+
+The statement would throw an error.
+
+
+1 point
+5.
+Question 5
+Considering the execution of the following SQL statement, what would be the expected output?
+
+SELECT * FROM INSTRUCTOR WHERE LASTNAME='Smith' LIMIT 5
+
+
+The first 5 rows from the INSTRUCTOR table.
+
+
+
+The last 5 rows from the INSTRUCTOR table.
+
+
+
+The last 5 entries in the INSTRUCTOR table where LASTNAME is 'Smith.'
+
+
+
+The first 5 entries in the INSTRUCTOR table where LASTNAME is 'Smith.'
+
+
+1 point
+Coursera Honor Code  Learn more
+I, Yash Singhal, understand that submitting work that isn’t my own may result in permanent failure of this course or deactivation of my Coursera account.*
+You must select the checkbox in order to submit the assignment
+Last saved on Jul 25, 5:36 PM IST
+
